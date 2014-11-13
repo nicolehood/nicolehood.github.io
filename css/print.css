@@ -9,13 +9,12 @@
   margin: 0.5in;
 }
 
-@media print {
-  #logo img {
-    display:none;
-  }
-  #logo:after {
-    content:url(img/Logoblack-white.svg);
-  }
+img {
+  display: none;
+}
+
+#name {
+  font-size: 30pt;
 }
 
 header > p.address {
@@ -27,7 +26,7 @@ header > p.address {
 }
 
 header > p.designer {
-  font-size: 30pt;
+  font-size: 15pt;
   padding: 7.5pt;
   margin-top: 0;
   margin-bottom: 0;

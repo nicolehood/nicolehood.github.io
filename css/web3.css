@@ -9,6 +9,10 @@ img {
   border-right: 2px solid rgb(157,187,196);
 }
 
+#name {
+  display: none;
+}
+
 header > p.address {
   padding: 10px;
   float: left;
