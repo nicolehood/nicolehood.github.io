@@ -14,7 +14,7 @@
     display:none;
   }
   #logo:after {
-    content:url(logoblack-white.svg);
+    content:url(img/Logoblack-white.svg);
   }
 }
 
@@ -59,7 +59,7 @@ h2 {
 }
 
 ul {
-  list-style-image: url(arrow-right.svg);
+  list-style-image: url(img/arrow-right.svg);
 }
 
 a {
