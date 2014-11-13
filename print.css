@@ -1,0 +1,74 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 15pt;
+  font-family: Garamond, serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+@media print {
+  #logo img {
+    display:none;
+  }
+  #logo:after {
+    content:url(logoblack-white.svg);
+  }
+}
+
+header > p.address {
+  padding: 7.5pt;
+  font-size: 11.25pt;
+  border-bottom: 1pt solid black;
+  border-top: 1pt solid black;
+  margin: 0;
+}
+
+header > p.designer {
+  font-size: 30pt;
+  padding: 7.5pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header > p.phone-email {
+  font-size: 11.25pt;
+  margin: 0;
+  padding-top: 7.5pt;
+  padding-left: 7.5pt;
+}
+
+nav {
+  display: none;
+}
+
+#education {
+  margin-bottom: 0;
+  padding: 3.75pt;
+}
+
+#experience {
+  padding: 3.75pt;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: black;
+}
+
+ul {
+  list-style-image: url(arrow-right.svg);
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+}
+
+/*
+Is it okay that I just took the text-decoration off the links?
