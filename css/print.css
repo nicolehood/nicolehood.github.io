@@ -9,34 +9,13 @@
   margin: 0.5in;
 }
 
-img {
-  display: none;
-}
-
-#name {
-  font-size: 30pt;
-}
-
-header > p.address {
-  padding: 7.5pt;
-  font-size: 11.25pt;
-  border-bottom: 1pt solid black;
-  border-top: 1pt solid black;
-  margin: 0;
-}
-
-header > p.designer {
-  font-size: 15pt;
-  padding: 7.5pt;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-header > p.phone-email {
-  font-size: 11.25pt;
-  margin: 0;
-  padding-top: 7.5pt;
-  padding-left: 7.5pt;
+@media print {
+  #logo img {
+    display:none;
+  }
+  #logo:after {
+    content:url(logoblack-white.svg);
+  }
 }
 
 nav {
@@ -57,14 +36,18 @@ h2 {
   color: black;
 }
 
-ul {
-  list-style-image: url(img/arrow-right.svg);
-}
-
 a {
   text-decoration: none;
 }
 
 footer {
   clear: both;
+}
+
+img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }

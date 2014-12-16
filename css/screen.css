@@ -1,0 +1,176 @@
+body {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+header.home {
+  position: relative;
+  top: -20px;
+}
+
+nav.home > a {
+  margin: 25px;
+  padding: 25px;
+  background: RGB(0,149,147);
+  opacity: 0.7;
+  font-size: 15pt;
+  text-decoration: none;
+  color: white;
+  border-top-left-radius: 80px 50px;
+  border-bottom-right-radius: 80px 50px;
+  position: relative;
+  top: 20px;
+}
+
+#homepage {
+  position: relative;
+  left: 30px;
+}
+
+header.webmiscnav {
+  position: relative;
+  left: 330px;
+}
+
+header.webmiscnav > h1 {
+  position: relative;
+  top: -15px;
+}
+
+img.linebreak {
+  position: relative;
+  left: 15px;
+  top: -40px;
+}
+
+nav.webmiscnav {
+  display: inline-block;
+  position: relative;
+  left: 216.5px;
+  top: -30px;
+}
+
+nav.webmiscnav > a {
+  background: RGB(0,149,147);
+  opacity: 0.7;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-top-left-radius: 40px 20px;
+  border-bottom-right-radius: 40px 20px;
+}
+
+main {
+  position: relative;
+  left: 66px;
+}
+
+h2.webdesign {
+  position: relative;
+  left: 164px;
+  top: 10px;
+}
+
+img.webex {
+  border: 1px solid RGB(0,149,147);
+  margin: 17.5px;
+}
+
+img.webexlast {
+  border: 1px solid RGB(0,149,147);
+  position: relative;
+  left: 207px;
+  margin: 17.5px;
+}
+
+h2.tabletdesign {
+  position: relative;
+  left: 14px;
+}
+
+img.tabletmobile {
+  margin: 15px;
+  border: 1px solid RGB(0,149,147);
+}
+
+img {
+  vertical-align: top;
+}
+
+img.equal, img.misced {
+  margin: 15px;
+  border: 1px solid RGB(0,149,147);
+}
+
+h2.miscdesigntitle {
+  position: relative;
+  left: 20px;
+}
+
+h3.magdesigntitle, h3.posterdesigntitle, h3.albumdesigntitle {
+  position: relative;
+  left: 300px;
+  top: 20px;
+}
+
+.album {
+  margin: 15px;
+  position: relative;
+  left: 220.5px;
+}
+
+.misceddesigntitle {
+  position: relative;
+  left: 139px;
+  top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+
+#education, #experience, #skills {
+  position: relative;
+  bottom: 170px;
+}
+
+#education {
+  width: 280px;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  border-right: 1px solid rgb(157,187,196);
+}
+
+#experience {
+  width: 500px;
+  margin: 10px;
+  float: left;
+  padding: 5px;
+  padding-top: -25px;
+}
+
+h2.resume2 {
+  text-transform: uppercase;
+  color: rgb(157,187,196);
+}
+
+footer.resumefooter {
+  clear: both;
+}
+
+#resumeinfo {
+  position: relative;
+  top: 150px;
+  left: 70px;
+}
+
+footer.home {
+  position: absolute;
+  left: 15px;
+  bottom: -200px;
+}

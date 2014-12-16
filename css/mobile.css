@@ -1,0 +1,157 @@
+@media (max-width: 320px) {
+
+  body {
+    width: 320px;
+    font-family: "Avenir", Helvetica, sans-serif;
+    font-weight: 100;
+  }
+
+  img {
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+  }
+
+  header.home {
+    position: relative;
+    top: -10px;
+    left: -20px;
+    width: 300px;
+  }
+
+  nav.home {
+    position: relative;
+    top: -20px;
+    left: 10px;
+  }
+
+  nav.home > a {
+    background: RGB(0,149,147);
+    opacity: 0.7;
+    font-size: 14pt;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: -40px;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    height: 20px;
+  }
+
+  header.webmiscnav {
+    position: relative;
+    left: 10px;
+  }
+
+  nav.webmiscnav {
+    position: relative;
+    left: 10;
+    top: -30px;
+    font-size: 10px;
+  }
+
+  nav.webmiscnav > a {
+    background: RGB(0,149,147);
+    opacity: 0.7;
+    margin: 1px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 40px 20px;
+    border-bottom-right-radius: 40px 20px;
+    position: relative;
+    left: -210px;
+  }
+
+  h2.webdesign {
+    position: relative;
+    left: -50px;
+    top: -10px;
+  }
+
+  img.webex {
+    border: 1px solid RGB(0,149,147);
+    position: relative;
+    left: -45px;
+    width: 250px;
+    top: -20px;
+  }
+
+  img.webexlast {
+    border: 1px solid RGB(0,149,147);
+    position: relative;
+    left: -45px;
+    width: 250px;
+    top: -20px;
+  }
+
+  img.tabletdesign {
+    position: relative;
+    left: -52px;
+    top: -10px;
+  }
+
+  img.tabletmobile {
+    border: 1px solid RGB(0,149,147);
+    position: relative;
+    left: -40px;
+    top: -40px;
+  }
+
+  h2.miscdesigntitle {
+    position: relative;
+    left: -50px;
+    top: -15px;
+  }
+
+  img.equal, img.misced {
+    margin: 15px;
+    border: 1px solid RGB(0,149,147);
+    position: relative;
+    left: -47px;
+    top: -60px;
+    width: 250px;
+  }
+
+  h3.magdesigntitle, h3.posterdesigntitle, h3.albumdesigntitle {
+    position: relative;
+    left: -27px;
+    top: -30px;
+  }
+
+  .album {
+    margin: 15px;
+    position: relative;
+    left: -47px;
+    top: -50px;
+    width: 250px;
+  }
+
+  .misceddesigntitle {
+    position: relative;
+    left: -50px;
+    top: -30px;
+  }
+
+  #resumeinfo {
+    position: relative;
+    top: 150px;
+    left: 5px;
+  }
+
+  #education, #experience, #skills {
+    width: 270px;
+    border: none;
+  }
+
+  #experience {
+    position: relative;
+    top: -220px;
+  }
+
+
+  footer.home {
+    position: relative;
+    top: 10px;
+    left: -10px;
+  }
